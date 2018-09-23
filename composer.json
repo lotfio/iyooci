@@ -1,0 +1,24 @@
+{
+    "name": "lotfio/iyooci",
+    "description": "Iyooci (IOC) is a DI container for PHP",
+    "authors": [
+        {
+            "name": "lotfio lakehal",
+            "email": "lotfiolakehal@gmail.com"
+        }
+    ],
+
+    "require": {
+
+        "php" : ">=7.0",
+        "psr/container": "^1.0",
+        "lotfio/ouch": "^0.1.1"
+    },
+
+    "autoload" : {
+        
+        "psr-4":{
+            "Iyooci\\" : "src/Iyooci"
+        }
+    }
+}

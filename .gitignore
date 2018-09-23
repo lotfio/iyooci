@@ -1,0 +1,7 @@
+/vendor/
+/error/
+.idea
+.phpintel
+composer.lock
+classes.php
+index.php
